@@ -7,6 +7,6 @@ services:
     # restart: always
     # restart: on-failure
     restart: unless-stopped
-    build: ./redisNetworking
+    build: .
     ports:
       - "4001:8081"
